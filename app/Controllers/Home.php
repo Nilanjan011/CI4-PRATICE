@@ -13,7 +13,7 @@ class Home extends BaseController
 
 	public function about()
 	{
-		echo view('layout/header',['title'=>"About"]); // don't work return 
+		echo view('layout/header',['title'=>"About"]); //return don't work  
 		echo view('about');
 		echo view('layout/footer');
 	}

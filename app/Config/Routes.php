@@ -39,6 +39,8 @@ $routes->get('delete/(:num)', 'Home::delete/$1');
 $routes->get('edit/(:num)', 'Home::edit/$1');
 $routes->post('insert', 'Home::insert');
 $routes->post('update', 'Home::update');
+$routes->get('photo', 'My::index');
+$routes->post('upload', 'My::upload');
 
 /*
  * --------------------------------------------------------------------
